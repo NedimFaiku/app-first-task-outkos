@@ -1,0 +1,73 @@
+.card-style {
+    margin-top: 50px;
+    width: 25%;
+    border: solid lightgrey 1px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: left;
+    padding: 28px;
+}
+
+
+.label {
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.labelfix {
+    background-color: blue;
+}
+
+.labelimporv {
+    background-color: blueviolet;
+    padding: 5px 20px !important;
+}
+
+.button {
+    border: blue 1px solid;
+    color: blue;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 50px;
+    cursor: pointer;
+    
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.lineName {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    height: 10%;
+}
+.description{
+    color: lightgrey;
+    font-size: 20px;
+    text-align: left;
+    height: 150px;
+    margin-bottom: 60px;
+}
+.version{
+    height: 15px;
+}
